@@ -33,6 +33,8 @@ h1,h2,h3,p {
 }
 
 .section-title {
+    margin-bottom: 72px;
+
     color: var(--second-text-color);
     font-style: normal;
     font-weight: 500;
@@ -61,9 +63,9 @@ img {
 .container {
     margin-right: auto;
     margin-left: auto;
-    width: 1128px;
-    padding-left: 12px;
-    padding-right: 12px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Logo */
@@ -104,9 +106,12 @@ header {
 /* navigation */
 .site-nav {
     display: flex;
+    margin-left: 77px;
+}
+
+.site-nav .item {
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-left: 77px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -116,7 +121,7 @@ header {
 
 .site-nav .link {
     display: block;
-  
+
 
     color: var(--second-text-color);
     font-weight: 500;
@@ -219,22 +224,19 @@ button:active {
 
 /* Selection 2 */
 
-.list-item-img {
-    margin-top: 72px;
-}
 
 .list-item-img + .list-item-img {
     margin-left: 24px;
+}
+
+.selection.doing {
+    padding-top: 0;
 }
 
 /* Selection 3 */
 
 .team {
     background-color: var(--second-background-color);
-}
-
-.team.list {
-    margin-top: 72px;
 }
 
 .team-item {  
@@ -248,23 +250,18 @@ button:active {
     margin-left: 24px;
 }
 
-.team-item .list-title {
+.caption {
     margin-top: 32px;
-    margin-bottom: 8px;
-}
-
-.role {
     margin-bottom: 32px;
 }
 
+
 /* footer */
 footer {
-    background-color: #2E2F42;
-}
-
-.container.footer {
     padding-top: 110px;
     padding-bottom: 90px;
+
+    background-color: #2E2F42;
 }
 
 .footer-text {
@@ -278,6 +275,9 @@ footer {
 
 /* potrfolio */
 
+.selection.portfolio {
+    padding-top: 96px;
+}
 
 /* Portfolio - Filtrs */
 
@@ -324,9 +324,12 @@ footer {
 }
 
  .card {
+    width: 360px;
     padding-bottom: 32px;
     margin-right: 24px;
     margin-bottom: 48px;
+
+    border: 0.5px solid #F4F4FD;
 
  }
 
